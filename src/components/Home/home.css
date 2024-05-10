@@ -1,0 +1,144 @@
+.conteiner1 {
+    height: 1500px !important;
+}
+
+.card1-container {
+  margin: 0 50px;
+}
+
+.banner-1 {
+    position: relative;
+  }
+  
+  .banner-1 img {
+    padding: 20px 0;
+    width: 100%;
+    /* height: 700px; */
+    object-fit: cover;
+  }
+  
+  .banner-1 button {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .text-box {
+    background-color: #84c5ea;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-box h1 {
+    font-family: 'Francois One', 'sans-serif';
+    color: #fff !important;
+    font-size: 45px;
+  }
+  
+  .card1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+
+
+  .h12 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .img1 img {
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  }
+
+  .img1 {
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+
+  .img2 img {
+    height: 350px;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  }
+
+  .img2 {
+    padding-right: 50px;
+    margin-top: 50px;
+  }
+  
+  .h12 span {
+    color: #1684d1;
+  }
+  
+  .h12 button {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Crimson Text', 'sans-serif';
+    color: #fff;
+    background-color: #1684d1;
+  }
+  
+  .h12 button:hover {
+    background-color: #1871b0e5;
+  }
+  
+  .h12 h1 {
+    margin-bottom: 5%;
+  }
+  
+  .h12 h2 {
+    margin-bottom: 8%;
+  }
+  
+  .card2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .cruzeiro {
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  
+  .cruzeiro img {
+    width: 100%;
+  }
+  
+  .disney {
+    margin-top: 5%;
+    margin-bottom: 6%;
+  }
+  
+  .disney img {
+    width: 100%;
+  }
+  
+  .custom-shape-divider-bottom-1714666946 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1714666946 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 232px;
+  }

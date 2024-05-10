@@ -1,0 +1,250 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.content {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Crimson Text', serif;
+
+
+}
+
+
+.content h2 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+
+.title {
+    font-weight: normal;
+}
+
+
+body {
+    background-color: #1684D1;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-login{
+    display: flex;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+
+.first-column,
+.second-column {
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1)
+}
+
+
+.first-column {
+    background-color: #84C5EA;
+    border-right: 1px solid #ccc;
+}
+
+
+.second-column {
+    background-color: #fff;
+    padding: 40px;
+    font-family: 'Crimson Text', serif;
+
+
+}
+
+
+.container-inner {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.title-and-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.title {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.btn {
+    background-color: #1684D1;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+
+.create-account {
+    color: #1684D1;
+    margin-right: 10px;
+}
+
+
+.btn:hover {
+    background-color: #0f5f9f;
+}
+
+
+.input-box {
+    position: relative;
+}
+
+
+.input-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.input-box .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #1684D1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+
+.input-box input:focus + .underline {
+    transform: scaleX(1);
+}
+
+
+.login-title {
+    font-size: 25px;
+}
+
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.forgot-password a {
+    text-decoration: none;
+    color: #1684D1;
+}
+
+
+.forgot-password a:hover {
+    text-decoration: none;
+}
+
+
+.btn i,
+.forgot-password a i {
+    margin-left: 5px;
+}
+
+
+.btn i,
+.forgot-password a i {
+    font-size: 16px;
+}
+
+
+.forgot-password a i {
+    vertical-align: middle;
+}
+
+
+.social-fields {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.social-field {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.social-field a {
+    text-decoration: none;
+    color: #1684D1; /* Alterando a cor para azul para garantir visibilidade */
+    font-size: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+    transition: color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+
+.social-field a:hover {
+    color: #0f5f9f; /* Cor do texto ao passar o mouse */
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+}
+
+
+.no-login {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.no-login-link {
+    text-decoration: none;
+    color: #1684D1;
+    font-weight: normal;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-image-centered {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-image img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+}

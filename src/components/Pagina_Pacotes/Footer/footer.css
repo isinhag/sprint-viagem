@@ -1,0 +1,124 @@
+#container-footer {
+    background-color: #1684D1;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Alinhar os itens ao topo */
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 20px;
+    margin-bottom: 30px; /* Adicionado para criar espaço entre as colunas */
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0; /* Remover o preenchimento padrão da lista */
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    color: #cecdcd;
+}
+
+.footer-col img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%; /* Alterado para criar um círculo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4), /* Adicionado um destaque ao redor do círculo */
+                0 0 5px rgba(0, 0, 0, 0.4); /* Adicionado um destaque adicional ao redor do círculo */
+    outline: none; /* Removendo qualquer borda */
+}
+
+
+/* Estilos para o formulário de contato */
+.footer-col .form-sub input,
+.footer-col .form-sub button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px; /* Adicionado para criar espaço entre os elementos */
+}
+
+.footer-col .form-sub input::placeholder {
+    color: white;
+}
+
+.footer-col .form-sub button {
+    cursor: pointer;
+    color: #4866ec;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+    transition: background-color 0.3s; /* Adicionado para suavizar a transição */
+}
+
+.footer-col .form-sub button:hover {
+    background-color: #60a2e0;
+}
+
+/* Formulário */
+
+/* Estilo para o formulário de contato */
+.footer-col .contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col .contact-form input,
+.footer-col .contact-form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.footer-col .contact-form input::placeholder {
+    color: #999;
+}
+
+.footer-col .contact-form button {
+    cursor: pointer;
+    color: white;
+    background-color: #125f9e;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.footer-col .contact-form button:hover {
+    background-color: #1e6dae;
+}
+
