@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import "./main.css";
-
+import Header from '../Header/Header';
 
 import  Faixa from './Faixa'
 import {HiOutlineLocationMarker, HiOutlineClipboardCheck} from 'react-icons/hi'
@@ -18,7 +18,6 @@ import img9 from '../../Assets/img (9).jpg'
 // import 'aos/dist/aos.css'
 
 
- <Faixa/> 
 
 const Data = [
   {
@@ -110,23 +109,31 @@ const Data3 = [
   },
 ]
 
+
 export const Main = () => {
 
     // use react hooks to add a scroll animation
     // useEffect(()=>{
     //   Aos.init({duration: 2000})
-    // }, []) 
-
-    <Faixa/>
-
-  return (
+    // }, []
 
 
-    
    
 
-    <section className='main container section'>
 
+  return ( 
+
+    
+    <div>
+
+         <div id="text-box-faixa">  
+        <h1 className='h1-faixa'>Fique por dentro de todos os Pacotes!</h1>
+        <p className='p-faixa'>💼 Uma seleção de pacotes parq suas próximas férias</p>
+      </div>
+
+      <br/>
+  
+    <section className='main container section'>
 
       <div className="secTitle">
         <h3 data-aos="fade-right" className="title">Lugares mais visitados</h3>
@@ -284,6 +291,8 @@ export const Main = () => {
 
 
     </section>
+
+    </div>
 
     
     

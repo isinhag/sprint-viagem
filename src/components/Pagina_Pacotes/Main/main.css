@@ -25,6 +25,23 @@
     margin-bottom: -60px;
   }
 
+  #text-box-faixa {
+    background-color: #84C5EA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 120px;
+    margin-bottom: -30px;
+    margin-top: 28px;
+    padding-top: 15px;
+  }
+
+  .h1-faixa {
+    font-family: 'Francois One', 'sans-serif';
+    color: #fff !important;
+    font-size: 45px;
+  }
+
   p {
     color: #000000;
     font-weight: 500;
@@ -34,9 +51,10 @@
     color: #fff;
   }
   .main {
-    width: 100%;
+    width: 90%;
     margin-bottom: 6%;
     margin-top: 6%;
+   max-width: max-content;
   }
 
   .main .secTitle .title {

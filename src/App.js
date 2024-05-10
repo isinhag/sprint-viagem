@@ -7,8 +7,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Pagina_Pacotes/Header/Header';
 import Footer from './components/Pagina_Pacotes/Footer/Footer';
 import Home from './components/Home/Home';
-import Faixa from './components/Pagina_Pacotes/Main/Faixa';
-import { FaHome, FaCog, FaUser } from 'react-icons/fa'; // Importando ícones do react-icons;
 import './App.css'; // Importando o arquivo CSS;
 
 
@@ -18,7 +16,7 @@ import PacotesComponent from './components/Pagina_Pacotes/Main/Main';
 import AtracoesComponent from './components/Paginas/AtracoesComponent';
 import CruzeirosComponent from './components/Paginas/CruzeirosComponent';
 import HoteisComponent from './components/Paginas/HoteisComponent';
-import PerfilComponent from './components/Paginas/PerfilComponent';
+import PerfilComponent from './components/Login/Login';
 
 function ColorSchemesExample() {
   return (

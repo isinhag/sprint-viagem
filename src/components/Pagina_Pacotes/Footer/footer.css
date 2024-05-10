@@ -14,8 +14,8 @@
 
 .footer-col {
     width: 25%;
-    padding: 0 20px;
-    margin-bottom: 30px; /* Adicionado para criar espaço entre as colunas */
+    padding: 0 60px;
+    margin-bottom: 1px; /* Adicionado para criar espaço entre as colunas */
 }
 
 .footer-col h4 {
